@@ -22,7 +22,7 @@ pipeline {
             }
         }
 
-#this config brings in the jacoco metrics
+#!this config brings in the jacoco metrics
                       stage ('JaCoCo') {
         steps {
             jacoco(execPattern: 'target/jacoco.exec')
