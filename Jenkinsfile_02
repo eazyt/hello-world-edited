@@ -22,7 +22,7 @@ pipeline {
             }
         }
 
-#!this_config_brings_in_the_jacoco_metrics
+//this_config_brings_in_the_jacoco_metrics
                       stage ('JaCoCo') {
         steps {
             jacoco(execPattern: 'target/jacoco.exec')
