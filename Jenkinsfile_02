@@ -21,11 +21,7 @@ pipeline {
                 
             }
         }
-              stage ('JaCoCo') {
-        steps {
-            jacoco(execPattern: 'target/jacoco.exec')
-        }
-    }
+
 
 
     }
