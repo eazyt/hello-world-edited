@@ -28,7 +28,7 @@ pipeline {
             steps {
                 jacoco(execPattern: 'target/jacoco.exec')
             }
-    }
+        }
 
         //this_stage_covers_the code coverage
         stage('SonarQube analysis') {
